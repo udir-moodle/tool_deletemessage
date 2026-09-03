@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/tool_deletemessage",
+  "description": "Delete Messages — Composer/Packagist mirror of the Moodle plugin tool_deletemessage, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-tool",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/tool_deletemessage",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "3.5.* || 3.6.* || 3.7.* || 3.8.* || 3.9.* || 3.10.* || 3.11.* || 4.0.* || 4.1.* || 4.2.* || 4.3.* || 4.4.* || 4.5.* || 5.0.* || 5.1.*"
+  },
+  "extra": {
+    "installer-name": "deletemessage",
+    "moodle-composer": {
+      "component": "tool_deletemessage"
+    }
+  }
+}
